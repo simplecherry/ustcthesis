@@ -1,0 +1,29 @@
+﻿\begin{abstract}
+
+近年来，由于电力行业产能过剩、空气污染加剧，国家对电厂煤耗和排放提出了更高的要求。在此背景下，燃煤电厂急需提高锅炉的燃烧效率，减少污染物排放。利用电厂已有的集散控制系统对锅炉燃烧系统实施先进控制改造，可以提高锅炉控制水平，进而提高锅炉效率，满足电厂需求。由于锅炉内部工作环境恶劣，污染物排放量检测仪表经常出现故障，导致部分回路异常运行。通过建立软测量模型，可以在仪表出现故障时估计污染物排放量，提高回路的自动控制投运率。
+
+本文以某电厂循环流化床锅炉燃烧系统为研究对象，将基于广义预测控制的先进控制策略应用到锅炉的燃烧系统，并设计了基于线性回归的氮氧化物软测量模型。论文的主要工作如下：
+
+（1）设计实现了先进控制系统，系统通过OPC与DCS通讯。修改锅炉组态，使先进控制投切满足安全需求，并增加了DCS端的先进控制监控画面。
+
+（2）重新设计了燃烧系统主汽压力、床温、床层压差三个回路的控制策略。基于先进控制系统，将这些控制策略应用于锅炉燃烧系统。系统投运后，提高了燃烧系统的控制水平，降低了锅炉的煤耗和电耗。
+
+（3）针对静态软测量模型不能跟踪系统动态变化的缺点，结合滚动窗方法和多元线性回归，设计了一种动态更新的氮氧化物排放量软测量建模方法。分析不同自变量选择方法和滚动窗参数对软测量模型性能的影响，并给出软测量模型估计结果。
+
+\keywords{循环流化床锅炉\zhspace{} 燃烧系统\zhspace{} 广义预测控制\zhspace{} 氮氧化物\zhspace{}
+软测量\zhspace{} 线性回归\zhspace{} 变量选择\zhspace{} 滚动窗}
+\end{abstract}
+
+\begin{enabstract}
+In recent years, due to the excessive of power and air pollution, there were more strict controls on coal consumption and emissions of power plants. Coal power plants need to improve combustion efficiency of boilers and reduce emissions. An advanced boiler combustion control system could be implemented based on the distributed control system in power plant. And the control performance was improved and thus efficiency of boiler could meet the requirement of power plant. Due to the harshness environment inside the boiler, abnormal operating condition happened occasionally caused by emission sensor failures. Soft sensor could help estimate the quantity of pollutant when instrument failure and improve operation rate of automatic control.
+
+The combustion system of a circulating fluidized bed boiler in a power plant was chosen as the research object in this thesis. A kind of advanced control strategy based on generalized predictive control is applied to the combustion system of the boiler, and a \ce{NOx} soft sensor model based on linear regression is designed. The main work of this thesis is as follows:
+
+Firstly, an advanced control system which could communicate with DCS through OPC was designed and implemented. The boiler configuration was modified so that the switch between the original control mode and advanced control system meets the requirements of safety. A monitoring window for advanced control was added in DCS.
+
+Secondly, the control strategy of the three main loops of combustion system was redesigned. Based on the advanced control system, these control strategies were applied to the boiler combustion system. The control quantity of the combustion system was improved and thus coal and power consumption of the boiler are reduced.
+
+Thirdly, combined with sliding window, a dynamically updated \ce{NOx} emission soft sensor modeling method was proposed as a static soft sensor model cannot track the changes of the system.. The effects of variable selection methods and sliding window parameters on the performance of soft sensor model were analyzed and the estimated value of soft sensor was given in the thesis. 
+
+\enkeywords{CFBB, Combustion System, GPC, \ce{NOx}, Soft Sensor, Linear Regression, Variable Selection, Sliding Window}
+\end{enabstract}
