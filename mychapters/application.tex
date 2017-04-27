@@ -182,8 +182,6 @@ K_{FF} = -\frac{K_{YD}}{K_{YC}}
 \caption{主汽压力回路控制效果对比} \label{fig:gas_pre_line_gpc}
 \end{figure}
 
-
-
 \subsection{主汽压力回路控制效果}
 图~\ref{fig:gas_pre_line_gpc}~对比了手动控制和先进控制的主蒸汽压力运行曲线。上侧为未投预测控制时的主蒸汽压力曲线，下侧为投入预测控制后主蒸汽压力运行曲线，均为24小时的曲线。手动控制时，锅炉的主汽压力波动幅度非常大，甚至从12时开始出现发散的趋势，严重危及下游生产设备的安全。投运GPC先进控制后，主蒸汽压力波动幅度明显减小，也能很好的跟踪设定值的变化。控制精度负荷平稳时$\pm$0.05$\,$$\,$\si{\mega\pascal}，负荷波动较大时$\pm$0.07$\,$$\,$\si{\mega\pascal}。
 
@@ -192,6 +190,7 @@ K_{FF} = -\frac{K_{YD}}{K_{YC}}
 \includegraphics[width=13cm]{bed_tem_line_gpc}
 \caption{床温回路控制效果对比} \label{fig:bed_tem_line_gpc}
 \end{figure}
+
 \subsection{床温回路控制效果}
 图~\ref{fig:bed_tem_line_gpc}~对比手动控制和GPC先进控制的床温曲线。上侧为手动控制的床温曲线，下侧GPC控制的床温区曲线。在手动控制的时候，床温受锅炉负荷和给煤量影响，波动幅度很大。而投入先进控制后床温曲线的波动幅度明显降低，负荷变化不超过10$\,$\si{\percent}，控制精度$\pm$3$\,$\si{\degreeCelsius}，负荷变化较大时控制精度$\pm$5$\,$\si{\degreeCelsius}，同时能很好的跟踪设定值调整。
 
@@ -200,6 +199,7 @@ K_{FF} = -\frac{K_{YD}}{K_{YC}}
 \includegraphics[width=13cm]{bed_pre_line_gpc}
 \caption{床层压差回路控制效果对比} \label{fig:bed_pre_line_gpc}
 \end{figure}
+
 \subsection{床层压差回路控制效果}
 
 图~\ref{fig:bed_pre_line_gpc}~为整日投入床层压差的对比曲线。上图为全天手动控制曲线，下图为GPC控制曲线。可以看到，手动控制时的随意性较大，床层压差时高时低，对燃烧有一定影响。投运GPC先进控制之后，床层压差始终在设定值范围波动，即使在设定值调整之后，也能比较快的跟踪设定值。由于这时候“床温—床层压差—一次风回路”已经投入自动，床层压差受一次风的影响较大，虽然控制精度显得不太高，但已经满足了现场的工艺要求。
